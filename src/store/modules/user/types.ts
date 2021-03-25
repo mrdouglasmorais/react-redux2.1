@@ -1,8 +1,8 @@
 export interface IUser{
-    id: number;
+    id?: number;
     name: string;
     email: string;
-    age: number;
+    age: string;
 }
 
 export interface IGlobalState{
